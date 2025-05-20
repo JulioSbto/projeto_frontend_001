@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  font-family: "Montserrat";
+}
+
+#Banner {
+  background-image: url(/imagens/header.png);
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+}
+
+#Formulario {
+  width: 400;
+  height: 500;
+  margin-left: 100px;
+  color: white;
+}
+
+/*Formatar o 1º parágrafo da div*/
+#Formulario p:nth-of-type(1) {
+  font-weight: 700;
+}
+
+#Formulario input {
+  width: 80%;
+  padding: 15px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.Yellow_button {
+  background-color: yellow;
+  border: none;
+  width: 80%;
+  padding: 15px;
+  font-size: 16px;
+  font-weight: 900;
+  text-align: center;
+  margin-top: 10px;
+  transition: all 0.3s;
+}
+
+.Yellow_button:hover {
+  background-color: black;
+  color: yellow;
+}
+
+.Section {
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.Gray_section {
+  background-color: #202226;
+}
+
+.Black_section {
+  background-color: #171717;
+}
+
+.Yellow_text {
+  color: yellow;
+}
+
+.Content {
+  width: 800px;
+}
+
+.Icon {
+  width: 202px;
+  height: 202px;
+}
+
+#Author {
+  width: 400px;
+  height: 400px;
+  border-radius: 100%;
+}
+
+.About {
+  width: 550px;
+  margin-left: 70px;
+}
+
+.Learn_more{
+    width: 550px;
+}
+
+.Learn_more h1{
+    font-size: 45px;
+}
+
+#smartphone{
+    height: 500px;
+    width: auto;
+}
+
+footer{
+  color: white;
+}
